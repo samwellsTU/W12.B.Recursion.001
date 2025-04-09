@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>What is Recursion?</title>
+    <script src="recursion.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2em;
+            max-width: 700px;
+            margin: auto;
+            background: #f9f9f9;
+            color: #333;
+        }
+        pre {
+            background: #eee;
+            padding: 1em;
+            overflow-x: auto;
+        }
+        code {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>What is Recursion?</h1>
+    <p>
+        Recursion is a programming technique where a function calls itself in order to solve a problem.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+        A recursive function typically has two parts:
+    </p>
+    <ul>
+        <li><strong>Base case</strong> – when to stop recursing.</li>
+        <li><strong>Recursive case</strong> – the part where the function calls itself.</li>
+    </ul>
+
+    <h2>Example: Factorial</h2>
+    <p>
+        Here's a simple example of recursion in JavaScript: calculating the factorial of a number.
+    </p>
+    <pre><code>const factorial = functionl(n) {
+  if (n === 0) {
+    return 1; // base case
+  } else {
+    return n * factorial(n - 1); // recursive case
+  }
+}</code></pre>
+    <p>
+        <code>factorial(5)</code> would return <code>5 * 4 * 3 * 2 * 1 = 120</code>.
+    </p>
+
+    <h2>Why use recursion?</h2>
+    <p>
+        Recursion is especially useful for problems that can be broken down into similar subproblems</p
+
+
+
+</body>
+</html>
